@@ -1,0 +1,14 @@
+﻿Hi <%UserName%>!
+
+Thank you for choosing Elite Travel Guru. 
+
+Your itinerary is available for viewing at www.elitetravelguru.com.
+
+You current username and password:
+
+username: <%UserName%>
+passwords: <%Password%>
+
+Sincerely,
+
+Codex

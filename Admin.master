@@ -1,0 +1,129 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Admin.master.cs" Inherits="Admin" %>
+
+<%@ Register Src="~/UserControls/UserInfo.ascx" TagPrefix="uc1" TagName="UserInfo" %>
+
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <link rel="stylesheet" href="css/main.css" type="text/css" id="maincss"/>
+    
+    <link rel="stylesheet" href="css/colors/blue.css" type="text/css" id="Link1"/>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        <div id="wrapper">
+            <header>
+            <div class="info">
+                <div class="container">
+                    <div class="row">
+                        <div class="span6 info-text">
+
+                            <strong>Phone:</strong> <img src="https://service.ringcentral.com/picture/dot.gif" width="1" height="1"/><a href="https://service.ringcentral.com/ringme/ringme.asp?uc=03D18628CDE98A9DD359F1BDA438ADFC1884533817016,0,106&s=no&v=2&s_=1210" target="_blank">(888) 908 6983</a> <span class="separator"></span><strong>Email:</strong>  <a href="mailto:sales@elitetravelguru.com">sales@elitetravelguru.com</a>
+                        </div>
+                       
+                        <div class="span4 text-right">
+                            <div class="social-icons">
+
+                                <a class="social-icon sb-icon-gplus" href="https://google.com/+Elitetravelguru" rel="publisher"></a>
+
+                                <a class="social-icon sb-icon-linkedin" href="http://www.linkedin.com/company/elite-travel-guru?report%2Esuccess=KJ_KkFGTDCfMt-A7wV3Fn9Yvgwr02Kd6AZHGx4bQCDiP6-2rfP2oxyVoEQiPrcAQ7Bf"></a>
+                            </div>
+                        </div>
+                         <div class="span2 info-text">
+                             <uc1:UserInfo runat="server" ID="UserInfo" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div id="logo">
+                    <div class="inner">
+                        <a href="Default.aspx">
+                            <img src="images/etglogo.png" alt="logo"/></a>
+                    </div>
+                </div>
+
+                <!-- mainmenu begin -->
+                <ul id="mainmenu">
+                    <li><a href="Default.aspx">Home</a>
+                       
+                    </li>
+                    <li><a href="whyus.aspx">Why ETG?</a>
+                        <ul>
+                            <li><a href="whyus.aspx">Why ETG?</a></li>
+                            
+                            <li><a href="FAQ.aspx">FAQ</a></li>
+                            <li><a href="Terms.aspx">Terms & Conditions</a></li>
+                          <!--  <li><a href="Team.aspx">Team</a></li>-->
+                            
+                        </ul>
+                    </li>
+                    <li><a href="Services.aspx">Services</a>
+                        <ul>
+                            <li><a href="businessfirst.aspx">Business/First class flights</a></li>
+                            <li><a href="Passport.aspx">Passport & Visas</a></li>
+                            <!--
+                            <li><a href="services.html">Group/Event Travel</a></li>
+                            <li><a href="team.html">Travel Management</a></li>
+                            <li><a href="testimonial.html">Testimonial</a></li>
+                            -->
+                        </ul>
+                    </li>
+                    <!--
+                    <li><a href="#">Portfolio</a>
+                        <ul>
+                            <li><a href="portfolio-4-columns.html">4 Columns</a></li>
+                            <li><a href="portfolio-3-columns.html">3 Columns</a></li>
+                            <li><a href="portfolio-2-columns.html">2 Columns</a></li>
+                            <li><a href="single-project.html">Single Project</a></li>
+                        </ul>
+                    </li>
+                        -->
+                    <li><a href="Quote.aspx">Quote</a>
+                        
+                    </li>
+                    <li><a href="Contact.aspx">Contact</a></li>
+                </ul>
+                <!-- mainmenu close -->
+
+            </div>
+        </header>
+            <div style="margin-left:15px">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+
+        
+        </asp:ContentPlaceHolder>
+   </div> </div>
+        <div class="container">
+
+            <div class="row">
+              <div class="span1">
+                <uc1:UserInfo runat="server" ID="UserInfo1" />
+ <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                        </asp:ContentPlaceHolder>
+              </div>
+                <div class="span11">
+                        <asp:ContentPlaceHolder id="ContentPlaceHolder3" runat="server">
+        
+        </asp:ContentPlaceHolder>
+                   </div>
+                 
+       <asp:ContentPlaceHolder id="ContentPlaceHolder4" runat="server">
+        
+        </asp:ContentPlaceHolder>
+   
+            </div>
+        </div>
+        
+       
+
+    </div>
+    </form>
+</body>
+</html>

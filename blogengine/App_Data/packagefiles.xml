@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<InstalledPackageFiles>
+    <item id="SimpleBlog" fileorder="1" filepath="themes\SimpleBlog" isdirectory="True" />
+    <item id="SimpleBlog" fileorder="2" filepath="themes\SimpleBlog\img" isdirectory="True" />
+    <item id="SimpleBlog" fileorder="3" filepath="themes\SimpleBlog\img\BtnSearch.png" isdirectory="False" />
+    <item id="SimpleBlog" fileorder="4" filepath="themes\SimpleBlog\img\effect_1.png" isdirectory="False" />
+    <item id="SimpleBlog" fileorder="5" filepath="themes\SimpleBlog\img\effect_2.png" isdirectory="False" />
+    <item id="SimpleBlog" fileorder="6" filepath="themes\SimpleBlog\img\effect_3.png" isdirectory="False" />
+    <item id="SimpleBlog" fileorder="7" filepath="themes\SimpleBlog\img\nav.png" isdirectory="False" />
+    <item id="SimpleBlog" fileorder="8" filepath="themes\SimpleBlog\img\social.png" isdirectory="False" />
+    <item id="SimpleBlog" fileorder="9" filepath="themes\SimpleBlog\img\success.png" isdirectory="False" />
+    <item id="SimpleBlog" fileorder="10" filepath="themes\SimpleBlog\img\up.png" isdirectory="False" />
+    <item id="SimpleBlog" fileorder="11" filepath="themes\SimpleBlog\include" isdirectory="True" />
+    <item id="SimpleBlog" fileorder="12" filepath="themes\SimpleBlog\include\index.js" isdirectory="False" />
+    <item id="SimpleBlog" fileorder="13" filepath="themes\SimpleBlog\include\modernizr.js" isdirectory="False" />
+    <item id="SimpleBlog" fileorder="14" filepath="themes\SimpleBlog\include\styles.min.css" isdirectory="False" />
+    <item id="SimpleBlog" fileorder="15" filepath="themes\SimpleBlog\Changelog.txt" isdirectory="False" />
+    <item id="SimpleBlog" fileorder="16" filepath="themes\SimpleBlog\CommentView.ascx" isdirectory="False" />
+    <item id="SimpleBlog" fileorder="17" filepath="themes\SimpleBlog\newsletter.html" isdirectory="False" />
+    <item id="SimpleBlog" fileorder="18" filepath="themes\SimpleBlog\PostView.ascx" isdirectory="False" />
+    <item id="SimpleBlog" fileorder="19" filepath="themes\SimpleBlog\site.master" isdirectory="False" />
+    <item id="SimpleBlog" fileorder="20" filepath="themes\SimpleBlog\site.master.cs" isdirectory="False" />
+    <item id="SimpleBlog" fileorder="21" filepath="themes\SimpleBlog\theme.png" isdirectory="False" />
+    <item id="SimpleBlog" fileorder="22" filepath="themes\SimpleBlog\theme.xml" isdirectory="False" />
+    <item id="SimpleBlog" fileorder="23" filepath="themes\SimpleBlog\WidgetContainer.ascx" isdirectory="False" />
+</InstalledPackageFiles>

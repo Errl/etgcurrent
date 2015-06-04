@@ -1,0 +1,7 @@
+﻿SimpleBlog version 1.0.0 - Published Date: 11/9/2013
+
+Changelog file:
+SimpleBlog version 1.1.0 - Published Date: 16/9/2013
+	+ Add meta tag for viewport in (site.master) file, http://bit.ly/17ZTl0e.
+	+ Add or remove some styles in (/include/styles.min.css) file for fixed responsive menu.
+	+ Remove Title attribute from links at top menu in (site.master) file.

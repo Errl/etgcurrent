@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="~/Default.aspx" title="Home">
+    <siteMapNode title="Admin">
+      <siteMapNode url="~/Membership/CreatingUserAccounts.aspx" title="Create User Account" />
+      <siteMapNode url="~/Administration/AdminManageUsers.aspx" title="Manage Users" />
+      <siteMapNode url="~/Administration/AddCompany.aspx" title="Add Company" />
+      <siteMapNode url="~/Administration/AdminByCompany.aspx" title="Manage Users by Company" />
+      <siteMapNode url="~/Administration/AddItinerary.aspx" title="Add Itinerary" />
+      
+    </siteMapNode>
+
+    <siteMapNode title="Roles">
+      <siteMapNode url="~/Roles/ManageRoles.aspx" title="Manage Roles" />
+      <siteMapNode url="~/Roles/UsersAndRoles.aspx" title="Users and Roles" />
+      <siteMapNode url="~/Roles/CreateUserWizardWithRoles.aspx" title="Create Account (with Roles)" />
+      
+    </siteMapNode>
+    <siteMapNode title="site administration">
+    <siteMapNode title=" Administration" url="~/Administration/ManageUsers.aspx"/>
+      <siteMapNode title="User Info" url="~/Administration/UserInformation.aspx"/>
+      
+    </siteMapNode>
+  </siteMapNode>
+  
+</siteMap>

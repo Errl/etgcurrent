@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<page>
+  <title>test</title>
+  <description />
+  <content>test</content>
+  <keywords />
+  <slug>test</slug>
+  <parent>00000000-0000-0000-0000-000000000000</parent>
+  <isfrontpage>False</isfrontpage>
+  <showinlist>True</showinlist>
+  <ispublished>True</ispublished>
+  <isdeleted>True</isdeleted>
+  <datecreated>2014-02-20 16:02:00</datecreated>
+  <datemodified>2014-03-21 11:25:10</datemodified>
+</page>

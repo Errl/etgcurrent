@@ -18,3 +18,10 @@ This is the current live version of elitetravelguru.com
 
 •	Used javascript and ajax autocomplete to suggest airport codes obtained from SQL database.
 
+UPDATES
+
+•	Hired a Graphic designer to design a more astute layout.
+
+•	Implemented the design into asp.net master pages and updated the site. 
+
+•	Integrated a blog using BlogEngine.net.
